@@ -35,6 +35,8 @@
   },
   "name":"LostinTranslation",
   "resources":[
+    {"id":{"name":"ButtonFont","path":"fonts/ButtonFont/ButtonFont.yy",},},
+    {"id":{"name":"TitleFont","path":"fonts/TitleFont/TitleFont.yy",},},
     {"id":{"name":"obj_levelselect","path":"objects/obj_levelselect/obj_levelselect.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"rm_selectlevel","path":"rooms/rm_selectlevel/rm_selectlevel.yy",},},
