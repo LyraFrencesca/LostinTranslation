@@ -35,12 +35,16 @@
   },
   "name":"LostinTranslation",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_levelselect","path":"objects/obj_levelselect/obj_levelselect.yy",},},
+    {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
+    {"id":{"name":"rm_selectlevel","path":"rooms/rm_selectlevel/rm_selectlevel.yy",},},
+    {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"roomId":{"name":"rm_selectlevel","path":"rooms/rm_selectlevel/rm_selectlevel.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
