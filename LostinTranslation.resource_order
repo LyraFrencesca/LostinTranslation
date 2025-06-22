@@ -16,5 +16,8 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_levelselect","order":2,"path":"objects/obj_levelselect/obj_levelselect.yy",},
+    {"name":"rm_selectlevel","order":1,"path":"rooms/rm_selectlevel/rm_selectlevel.yy",},
+  ],
 }
