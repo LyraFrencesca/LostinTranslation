@@ -19,6 +19,6 @@
   "ResourceOrderSettings":[
     {"name":"ButtonFont","order":1,"path":"fonts/ButtonFont/ButtonFont.yy",},
     {"name":"obj_levelselect","order":2,"path":"objects/obj_levelselect/obj_levelselect.yy",},
-    {"name":"rm_selectlevel","order":1,"path":"rooms/rm_selectlevel/rm_selectlevel.yy",},
+    {"name":"rm_japaneselevels","order":1,"path":"rooms/rm_japaneselevels/rm_japaneselevels.yy",},
   ],
 }
