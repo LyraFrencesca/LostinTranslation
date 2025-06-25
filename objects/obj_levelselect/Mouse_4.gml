@@ -1,4 +1,4 @@
-var mx = mouse_x;
+/*var mx = mouse_x;
 var my = mouse_y;
 
 if (mx > btn_x && mx < btn_x + btn_width) {
@@ -16,4 +16,4 @@ if (mx > btn_x && mx < btn_x + btn_width) {
     if (my > btn_back_y && my < btn_back_y + btn_height) {
         room_goto(rm_title);
     }
-}
+}*/
