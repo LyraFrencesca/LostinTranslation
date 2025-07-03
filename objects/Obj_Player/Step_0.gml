@@ -1,23 +1,20 @@
-var move_x = 0;
-var move_y = 0;
+if (instance_exists(Obj_Dialog)) exit;
 
-if (keyboard_check(ord("A"))) move_x = -1;
-if (keyboard_check(ord("D"))) move_x = 1;
-if (keyboard_check(vk_left))  move_x = -1;
-if (keyboard_check(vk_right)) move_x = 1;
+var xspd = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var yspd = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-if (keyboard_check(ord("W"))) move_y = -1;
-if (keyboard_check(ord("S"))) move_y = 1;
-if (keyboard_check(vk_up))    move_y = -1;
-if (keyboard_check(vk_down))  move_y = 1;
+move_and_collide(xspd * move_spd, yspd * move_spd, tilemap, undefined, undefined, undefined, move_spd, move_spd);
 
-
-if (keyboard_check(ord("A"))) {
-    x -= 2;
+if (xspd != 0 or yspd !=0)
+{
+    if (yspd > 0) sprite_index = spr_player_walk_down;
+    else if (yspd < 0) sprite_index = spr_player_walk_up;
+    else if (xspd > 0) sprite_index = spr_player_walk_right;
+    else if (xspd <0) sprite_index = spr_player_walk_left;
+}                                
+else {
+	if (sprite_index = spr_player_walk_down) sprite_index = spr_player_idle_down;
+    if (sprite_index = spr_player_walk_up) sprite_index = spr_player_idle_up;
+    if(sprite_index = spr_player_walk_right) sprite_index = spr_player_idle_right;
+    if(sprite_index = spr_player_walk_left) sprite_index = spr_player_idle_left;
 }
-if (keyboard_check(ord("D"))) {
-    x += 2;
-}
-
-x += move_x * speed;
-y += move_y * speed;
