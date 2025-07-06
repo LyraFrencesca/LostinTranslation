@@ -84,6 +84,7 @@
   "name":"Lost in Translation",
   "resources":[
     {"id":{"name":"ButtonFont","path":"fonts/ButtonFont/ButtonFont.yy",},},
+    {"id":{"name":"fnt_subTitle","path":"fonts/fnt_subTitle/fnt_subTitle.yy",},},
     {"id":{"name":"TitleFont","path":"fonts/TitleFont/TitleFont.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"Obj_Dialog","path":"objects/Obj_Dialog/Obj_Dialog.yy",},},
