@@ -1,9 +1,10 @@
-btn_x = room_width / 2 - 100;
 btn_width = 200;
 btn_height = 40;
 
-btn_start_y = 200;
-btn_settings_y = 260;
-btn_exit_y = 320;
+var vw = view_wport[0];
+var vh = view_hport[0];
 
-btn_choose_y = 200; 
+btn_x = vw / 2 - btn_width / 2;
+
+btn_choose_y = vh / 2 - 50;  
+btn_exit_y   = vh / 2 + 20;  
