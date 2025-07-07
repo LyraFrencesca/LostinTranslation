@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"add_to_journal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"add_to_journal",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
