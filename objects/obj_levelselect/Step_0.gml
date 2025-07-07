@@ -10,7 +10,7 @@ if (mouse_check_button_pressed(mb_left)) {
 
             switch (i) {
                 case 0:
-                    room_goto(Room1); // Level 1 is unlocked
+                    room_goto(Room1); 
                     break;
                 case 1:
                     show_message("Level " + string(i + 1) + " locked!");

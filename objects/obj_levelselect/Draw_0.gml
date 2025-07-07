@@ -1,4 +1,3 @@
-// Get viewport width (again, fallback for safety)
 var vw = view_wport[0];
 if (vw == 0) vw = 600;
 

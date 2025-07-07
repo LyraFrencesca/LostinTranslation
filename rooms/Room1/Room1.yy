@@ -8,6 +8,9 @@
   "instanceCreationOrder":[
     {"name":"inst_1486B2E8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5B3FEBCE","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_76DDC466","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_75EF5970","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_31B4FBCE","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +19,9 @@
         {"$GMRInstance":"v2","%Name":"inst_5B3FEBCE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B3FEBCE","objectId":{"name":"Obj_NPC1","path":"objects/Obj_NPC1/Obj_NPC1.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_NPC_Parent","path":"objects/Obj_NPC_Parent/Obj_NPC_Parent.yy",},"propertyId":{"name":"dialog","path":"objects/Obj_NPC_Parent/Obj_NPC_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.welcome_dialog",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":96.0,},
+        {"$GMRInstance":"v2","%Name":"inst_76DDC466","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76DDC466","objectId":{"name":"obj_puzzleWord","path":"objects/obj_puzzleWord/obj_puzzleWord.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":384.0,},
+        {"$GMRInstance":"v2","%Name":"inst_75EF5970","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75EF5970","objectId":{"name":"obj_learn1","path":"objects/obj_learn1/obj_learn1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":160.0,},
+        {"$GMRInstance":"v2","%Name":"inst_31B4FBCE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31B4FBCE","objectId":{"name":"obj_journalEntires","path":"objects/obj_journalEntires/obj_journalEntires.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":38,"TileCompressedData":[
           -18,196,1,197,-37,-2147483648,1,215,-37,-2147483648,1,215,-37,-2147483648,1,215,-37,-2147483648,1,215,
