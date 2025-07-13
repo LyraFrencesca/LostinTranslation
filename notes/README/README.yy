@@ -3,8 +3,8 @@
   "%Name":"README",
   "name":"README",
   "parent":{
-    "name":"Lost in Translation",
-    "path":"Lost in Translation.yyp",
+    "name":"LiT",
+    "path":"LiT.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

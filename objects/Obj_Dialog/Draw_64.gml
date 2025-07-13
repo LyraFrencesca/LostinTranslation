@@ -12,7 +12,14 @@ var boxh = gui_h - dy;
 
 
 draw_sprite_stretched(spr_box, 0, 0, dy, boxw, boxh);
-draw_set_font(-1);
+
+//reset alignment 
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
+draw_set_font(fnt_japanese); 
+draw_set_color(c_white);
+
 var _name = messages[current_message].name;
 
 // draw_set_color(global.char_colors[$ _name])
