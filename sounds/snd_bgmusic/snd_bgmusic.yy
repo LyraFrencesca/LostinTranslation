@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":116.06204,
+  "duration":240.02402,
   "name":"snd_bgmusic",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_bgmusic.mp3",
   "type":0,
-  "volume":0.4,
+  "volume":0.3,
 }
