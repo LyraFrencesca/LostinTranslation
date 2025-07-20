@@ -157,6 +157,7 @@
     {"id":{"name":"SND_Shoot_F","path":"sounds/SND_Shoot_F/SND_Shoot_F.yy",},},
     {"id":{"name":"SND_Shoot_G","path":"sounds/SND_Shoot_G/SND_Shoot_G.yy",},},
     {"id":{"name":"SND_Shoot_H","path":"sounds/SND_Shoot_H/SND_Shoot_H.yy",},},
+    {"id":{"name":"snd_walk","path":"sounds/snd_walk/snd_walk.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},
     {"id":{"name":"SPR_Blue_Inside_White_Frame_1","path":"sprites/SPR_Blue_Inside_White_Frame_1/SPR_Blue_Inside_White_Frame_1.yy",},},
     {"id":{"name":"SPR_Blue_Inside_White_Frame_10","path":"sprites/SPR_Blue_Inside_White_Frame_10/SPR_Blue_Inside_White_Frame_10.yy",},},
