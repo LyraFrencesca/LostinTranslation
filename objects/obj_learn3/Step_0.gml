@@ -7,5 +7,8 @@ if (!collected && keyboard_check_pressed(ord("E")) && place_meeting(x, y, Obj_Pl
     if (audio_clip != noone) {
         audio_play_sound(audio_clip, 1, false);
     }
+	
+	instance_create_layer(x, y - 24, "Instances", obj_journalPopup);
+	
     collected = true;
 }
