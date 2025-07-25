@@ -24,7 +24,7 @@ if (mouse_x > btn_x && mouse_x < btn_x + btn_width &&
 }
 draw_rectangle(btn_x, btn_choose_y, btn_x + btn_width, btn_choose_y + btn_height, false);
 draw_set_color(c_white);
-draw_text(btn_x + btn_width / 2, btn_choose_y + btn_height / 2, "Choose Level");
+draw_text(btn_x + btn_width / 2, btn_choose_y + btn_height / 2, "Start Game");
 
 if (mouse_x > btn_x && mouse_x < btn_x + btn_width &&
     mouse_y > btn_exit_y && mouse_y < btn_exit_y + btn_height) {

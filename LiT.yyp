@@ -110,7 +110,6 @@
     {"id":{"name":"obj_puzzleUI","path":"objects/obj_puzzleUI/obj_puzzleUI.yy",},},
     {"id":{"name":"obj_puzzleWord","path":"objects/obj_puzzleWord/obj_puzzleWord.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
-    {"id":{"name":"rm_japaneselevels","path":"rooms/rm_japaneselevels/rm_japaneselevels.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"add_to_journal","path":"scripts/add_to_journal/add_to_journal.yy",},},
@@ -438,7 +437,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
-    {"roomId":{"name":"rm_japaneselevels","path":"rooms/rm_japaneselevels/rm_japaneselevels.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
