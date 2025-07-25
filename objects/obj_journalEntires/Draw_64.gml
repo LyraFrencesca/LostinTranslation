@@ -12,10 +12,17 @@ if (journal_open) {
     var panel_x = (gui_w - panel_width) / 2;
     var panel_y = (gui_h - panel_height) / 2;
 
-    draw_set_color(c_white);
-    draw_rectangle(panel_x, panel_y, panel_x + panel_width, panel_y + panel_height, false);
-    draw_set_color(c_black);
-    draw_rectangle(panel_x, panel_y, panel_x + panel_width, panel_y + panel_height, true);
+if (sprite_exists(spr_journal)) {
+    var spr_scale = 0.75; 
+    var bg_width = sprite_get_width(spr_journal) * spr_scale;
+    var bg_height = sprite_get_height(spr_journal) * spr_scale;
+
+    draw_sprite_ext(spr_journal, 0,
+        panel_x + panel_width / 2,
+        panel_y + panel_height / 2,
+        spr_scale, spr_scale,
+        0, c_white, 1);
+}
 
     if (font_exists(fnt_journalTitle)) draw_set_font(fnt_journalTitle);
     draw_set_color(c_black);
@@ -23,10 +30,11 @@ if (journal_open) {
     var title_w = string_width(title_text);
     draw_text(panel_x + (panel_width - title_w) / 2, panel_y + 20, title_text);
 
-    var entry_y_start = panel_y + 70;
-    var entry_spacing = 45;
+	var entry_y_start = panel_y + 100; 
+	var entry_spacing = 55; 
 
-    var padding = 70; 
+
+    var padding = 120; 
 	var column_width = (panel_width - padding * 2 - 20) / 3;
 
 	var column_jp = panel_x + padding + 5;  

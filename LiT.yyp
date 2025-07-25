@@ -284,6 +284,7 @@
     {"id":{"name":"SPR_Icons_Skull","path":"sprites/SPR_Icons_Skull/SPR_Icons_Skull.yy",},},
     {"id":{"name":"SPR_Icons_Small_House","path":"sprites/SPR_Icons_Small_House/SPR_Icons_Small_House.yy",},},
     {"id":{"name":"SPR_Icons_SpeechBubble","path":"sprites/SPR_Icons_SpeechBubble/SPR_Icons_SpeechBubble.yy",},},
+    {"id":{"name":"spr_journal","path":"sprites/spr_journal/spr_journal.yy",},},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},},
     {"id":{"name":"spr_learn1","path":"sprites/spr_learn1/spr_learn1.yy",},},
     {"id":{"name":"spr_learn2","path":"sprites/spr_learn2/spr_learn2.yy",},},
