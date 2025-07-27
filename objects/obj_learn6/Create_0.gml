@@ -1,4 +1,4 @@
-jp = "いくらですか？";
-en = "How much?";
-audio_clip = snd_ikuradesuka;
+jp = "ごめんなさい";
+en = "I'm Sorry";
+audio_clip = snd_gomenasai;
 collected = false;
