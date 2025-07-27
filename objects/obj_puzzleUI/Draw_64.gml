@@ -6,7 +6,6 @@ var gui_h = display_get_gui_height();
 var center_x = gui_w / 2;
 var top_y = gui_h / 2 - 100;
 
-// Prompt
 draw_set_font(fnt_japanese); 
 draw_set_color(c_purple);
 draw_set_halign(fa_center);

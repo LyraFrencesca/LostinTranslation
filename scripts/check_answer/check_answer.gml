@@ -1,80 +1,36 @@
+function check_answer(selected_option, correct_option, puzzle_index, ui_id) {
+    if (!is_array(global.puzzles)) {
+        show_debug_message("global.puzzles is not an array.");
+        return;
+    }
 
-function check_answer(answer, correct_answer, puzzle_index, ui_obj) {
-    show_debug_message("check_answer idx = " + string(puzzle_index));
+    var puzzle = global.puzzles[puzzle_index];
 
-    if (answer == correct_answer) {
-        audio_play_sound(snd_win, 1, false);
-        show_message("Correct!");
+    show_debug_message("check_answer called");
+    show_debug_message("Selected Option: " + string(selected_option));
+    show_debug_message("Correct Option: " + string(correct_option));
+    show_debug_message("Puzzle Index: " + string(puzzle_index));
 
-        global.puzzles[puzzle_index].puzzle_completed = true;
+    if (selected_option == correct_option) {
+        show_debug_message("Correct answer!");
+        global.puzzles[puzzle_index].puzzle_completed = 1;
 
-        var inst = instance_find(obj_puzzleWord, 0);
-        while (inst != noone) {
-            if (inst.puzzle_index == puzzle_index) {
-                instance_create_layer(inst.x, inst.y - 8, "Instances", obj_firework);
-                break;
-            }
-            inst = instance_find(obj_puzzleWord, instance_number(obj_puzzleWord) - 1);
+        if (audio_exists(snd_win)) {
+            audio_play_sound(snd_win, 1, false);
         }
 
-        if (all_puzzles_completed()) {
-            instance_create_layer(0, 0, "Instances", obj_gameComplete);
+        show_message_async("Correct!");
+
+        with (ui_id) {
+            alarm[0] = room_speed * 1; 
         }
 
     } else {
-        audio_play_sound(snd_lose, 1, false);
-        show_message("Not quite. Try reviewing your journal!");
-    }
+        show_debug_message("Incorrect answer.");
+        if (audio_exists(snd_lose)) {
+            audio_play_sound(snd_lose, 1, false);
+        }
 
-    global.input_locked = false;
-
-    if (instance_exists(ui_obj)) {
-        with (ui_obj) instance_destroy();
+        show_message_async("Try again! Check your journal!");
     }
 }
-
-
-/*function check_answer(answer, correct_answer, puzzle_index, ui_obj) {
-    show_debug_message("Checking answer for puzzle index: " + string(puzzle_index));
-
-    if (answer == correct_answer) {
-        audio_play_sound(snd_win, 1, false);
-        show_message("Correct!");
-
-        global.puzzles[puzzle_index].puzzle_completed = true;
-
-        // Create fireworks at the puzzleWord instance location
-        var inst = instance_find(obj_puzzleWord, 0);
-        while (inst != noone) {
-            if (inst.puzzle_index == puzzle_index) {
-                instance_create_layer(inst.x, inst.y - 8, "Instances", obj_firework);
-                break;
-            }
-            inst = instance_find(obj_puzzleWord, instance_number(obj_puzzleWord) - 1);
-        }
-
-        // Check if all puzzles are done
-        var all_done = true;
-        for (var i = 0; i < array_length(global.puzzles); i++) {
-            if (!global.puzzles[i].puzzle_completed) {
-                all_done = false;
-                break;
-            }
-        }
-        if (all_done) {
-            instance_create_layer(0, 0, "Instances", obj_gameComplete);
-        }
-
-    } else {
-        audio_play_sound(snd_lose, 1, false);
-        show_message("Not quite. Try reviewing your journal!");
-    }
-
-    global.input_locked = false;
-
-    if (instance_exists(ui_obj)) {
-        with (ui_obj) instance_destroy();
-    }
-}
-
-*/

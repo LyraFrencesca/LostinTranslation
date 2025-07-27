@@ -1,2 +1,2 @@
-scroll_y = 480; // Start off-screen
-scroll_speed = 1; // Adjust for slower/faster scroll
+scroll_y = 480;
+scroll_speed = 1;

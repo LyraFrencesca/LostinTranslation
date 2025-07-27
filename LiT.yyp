@@ -95,6 +95,7 @@
     {"id":{"name":"Obj_Dialog","path":"objects/Obj_Dialog/Obj_Dialog.yy",},},
     {"id":{"name":"obj_firework","path":"objects/obj_firework/obj_firework.yy",},},
     {"id":{"name":"obj_gameComplete","path":"objects/obj_gameComplete/obj_gameComplete.yy",},},
+    {"id":{"name":"obj_gameStart","path":"objects/obj_gameStart/obj_gameStart.yy",},},
     {"id":{"name":"obj_journalEntires","path":"objects/obj_journalEntires/obj_journalEntires.yy",},},
     {"id":{"name":"obj_journalParent","path":"objects/obj_journalParent/obj_journalParent.yy",},},
     {"id":{"name":"obj_journalPopup","path":"objects/obj_journalPopup/obj_journalPopup.yy",},},

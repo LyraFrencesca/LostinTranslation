@@ -1,4 +1,3 @@
-// Optional: Fade background
 draw_set_color(c_black);
 draw_rectangle(0, 0, display_get_width(), display_get_height(), false);
 
@@ -19,12 +18,17 @@ y += 30;
 draw_text(center_x, y, "Ashish");
 y += 60;
 
-draw_text(center_x, y, "Programming & Narrative");
+draw_text(center_x, y, "Programming");
+y += 30;
+draw_text(center_x, y, "Ashish");
+y += 20;
+draw_text(center_x, y, "Lyra");
+y += 40;
+
+draw_text(center_x, y, "Audio & Narrative");
 y += 30;
 draw_text(center_x, y, "Lyra");
-y += 20;
-draw_text(center_x, y, "Ashish");
-y += 40;
+y += 60
 
 draw_text(center_x, y, "Art & Animation");
 y += 30;

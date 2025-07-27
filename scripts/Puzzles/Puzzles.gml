@@ -1,7 +1,7 @@
-// Add more puzzles here
 function Puzzles() {
     return [
         {
+            id: 0,
             prompt_text: "こんにちは",
             correct_option: "Hello",
             option_1: "Hello",
@@ -11,6 +11,7 @@ function Puzzles() {
             puzzle_completed: false
         },
         {
+            id: 1,
             prompt_text: "さようなら",
             correct_option: "Goodbye",
             option_1: "Goodbye",
@@ -20,6 +21,7 @@ function Puzzles() {
             puzzle_completed: false
         },
         {
+            id: 2,
             prompt_text: "ありがとう",
             correct_option: "Thank you",
             option_1: "Sorry",
@@ -28,7 +30,8 @@ function Puzzles() {
             audio_clip: snd_arigatou,
             puzzle_completed: false
         },
-		 {
+        {
+            id: 3,
             prompt_text: "すみません",
             correct_option: "Excuse me!",
             option_1: "I'm Sorry",
@@ -38,7 +41,8 @@ function Puzzles() {
             puzzle_completed: false
         },
         {
-            prompt_text: "いくらですか？",
+            id: 4,
+            prompt_text: "いくらですか?",
             correct_option: "How much?",
             option_1: "How much?",
             option_2: "Excuse me!",
@@ -47,12 +51,13 @@ function Puzzles() {
             puzzle_completed: false
         },
         {
+            id: 5,
             prompt_text: "ごめんなさい",
             correct_option: "I'm Sorry",
             option_1: "Excuse me!",
             option_2: "How much?",
             option_3: "I'm Sorry",
-            audio_clip: snd_arigatou,
+            audio_clip: snd_gomenasai,
             puzzle_completed: false
         }
     ];
