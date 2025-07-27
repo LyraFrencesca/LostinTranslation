@@ -91,6 +91,7 @@
     {"id":{"name":"fnt_subTitle","path":"fonts/fnt_subTitle/fnt_subTitle.yy",},},
     {"id":{"name":"TitleFont","path":"fonts/TitleFont/TitleFont.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
+    {"id":{"name":"obj_creditsDisplay","path":"objects/obj_creditsDisplay/obj_creditsDisplay.yy",},},
     {"id":{"name":"Obj_Dialog","path":"objects/Obj_Dialog/Obj_Dialog.yy",},},
     {"id":{"name":"obj_firework","path":"objects/obj_firework/obj_firework.yy",},},
     {"id":{"name":"obj_gameComplete","path":"objects/obj_gameComplete/obj_gameComplete.yy",},},
@@ -118,6 +119,7 @@
     {"id":{"name":"obj_puzzleUI","path":"objects/obj_puzzleUI/obj_puzzleUI.yy",},},
     {"id":{"name":"obj_puzzleWord","path":"objects/obj_puzzleWord/obj_puzzleWord.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
+    {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"add_to_journal","path":"scripts/add_to_journal/add_to_journal.yy",},},
@@ -457,6 +459,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
