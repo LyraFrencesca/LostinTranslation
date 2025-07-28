@@ -1,6 +1,6 @@
 dialog = [
     { name: "ともだち", msg: "Say すみません when you need to ask for directions or squeeze past in a crowd." },
-	{ name: "ともだち", msg: "It’s polite and appreciated." },
+	{ name: "ともだち", msg: "It's polite and appreciated." },
     { name: "Player", msg: "Good to know! すみません!" },
 ];
 

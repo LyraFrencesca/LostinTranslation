@@ -1,6 +1,6 @@
 dialog = [
-    { name: "ともだち", msg: "If you break something... or hurt someone’s feelings, say ごめんなさい." },
-	{ name: "ともだち", msg: "It’s how we show we’re truly sorry." },
+    { name: "ともだち", msg: "If you break something... or hurt someone's feelings, say ごめんなさい." },
+	{ name: "ともだち", msg: "It's how we show we're truly sorry." },
 	{ name: "Player", msg: "ごめんなさい." },
 	{ name: "Player", msg: "Ohh, very useful!" },
 ];

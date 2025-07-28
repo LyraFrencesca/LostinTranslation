@@ -5,7 +5,7 @@ dialog = [
 	{ name: "Player", msg: "I'm ready to shop!" },
 ];
 
-jp = "いくらですか？";
+jp = "いくらですか?";
 en = "How much?";
 audio = snd_ikuradesuka; 
 tilemap = layer_tilemap_get_id("Tiles_Col");

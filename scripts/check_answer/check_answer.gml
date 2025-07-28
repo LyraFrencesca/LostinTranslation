@@ -13,7 +13,7 @@ function check_answer(selected_option, correct_option, puzzle_index, ui_id) {
 
     if (selected_option == correct_option) {
         show_debug_message("Correct answer!");
-        global.puzzles[puzzle_index].puzzle_completed = 1;
+        global.puzzles[puzzle_index].puzzle_completed = true;
 
         if (audio_exists(snd_win)) {
             audio_play_sound(snd_win, 1, false);
@@ -23,6 +23,12 @@ function check_answer(selected_option, correct_option, puzzle_index, ui_id) {
 
         with (ui_id) {
             alarm[0] = room_speed * 1; 
+        }
+
+        // Check if all puzzles are completed
+        if (all_puzzles_completed()) {
+            show_debug_message("All puzzles complete! Creating obj_gameComplete.");
+            instance_create_layer(display_get_width() / 2, display_get_height() / 2, "Instances", obj_gameComplete);
         }
 
     } else {
