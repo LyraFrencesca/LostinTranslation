@@ -15,7 +15,7 @@
     "TileDataFormat":1,
   },
   "name":"ts_tilemap",
-  "out_columns":16,
+  "out_columns":7,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -25,8 +25,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tilemap",
-    "path":"sprites/spr_tilemap/spr_tilemap.yy",
+    "name":"spr_tileset",
+    "path":"sprites/spr_tileset/spr_tileset.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -41,5 +41,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":252,
+  "tile_count":49,
 }

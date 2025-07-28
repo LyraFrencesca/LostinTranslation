@@ -56,10 +56,11 @@ if (mouse_x > btn_x && mouse_x < btn_x + btn_w &&
 } else {
     draw_set_color(c_dkgray);
 }
-draw_rectangle(btn_x, btn_y, btn_x + btn_w, btn_y + btn_h, false);
+draw_rectangle(btn_x, btn_y, btn_x + btn_w, btn_y + btn_h, true);
+
 
 draw_set_color(c_white);
 draw_set_font(fnt_credits);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_text(btn_x + btn_w / 2, btn_y + btn_h / 2, "Exit");
+draw_text(btn_x + btn_w / 2, btn_y + btn_h / 2, "Title");

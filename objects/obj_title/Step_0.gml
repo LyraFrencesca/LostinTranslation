@@ -11,5 +11,10 @@ if (mx > btn_x && mx < btn_x + btn_width &&
     my > btn_choose_y && my < btn_choose_y + btn_height) {
     room_goto(Room1);
 }
-
+    
+if (mx > btn_x && mx < btn_x + btn_width &&
+    my > btn_credits_y && my < btn_credits_y + btn_height) {
+    room_goto(rm_credits);
+}
+    
 }

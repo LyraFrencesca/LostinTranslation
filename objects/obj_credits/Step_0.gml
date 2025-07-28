@@ -9,6 +9,6 @@ var my = mouse_y;
 if (mouse_check_button_pressed(mb_left)) {
     if (mx > btn_x && mx < btn_x + btn_w &&
         my > btn_y && my < btn_y + btn_h) {
-        game_end();
+        room_goto(rm_title);
     }
 }

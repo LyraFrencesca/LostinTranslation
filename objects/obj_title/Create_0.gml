@@ -8,3 +8,4 @@ btn_x = vw / 2 - btn_width / 2;
 
 btn_choose_y = vh / 2 - 50;  
 btn_exit_y   = vh / 2 + 20;  
+btn_credits_y = vh / 2 + 90; 

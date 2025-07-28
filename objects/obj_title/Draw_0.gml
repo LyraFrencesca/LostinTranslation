@@ -36,3 +36,14 @@ draw_rectangle(btn_x, btn_exit_y, btn_x + btn_width, btn_exit_y + btn_height, fa
 draw_set_color(c_white);
 draw_text(btn_x + btn_width / 2, btn_exit_y + btn_height / 2, "Exit");
 
+
+if (mouse_x > btn_x && mouse_x < btn_x + btn_width &&
+    mouse_y > btn_credits_y && mouse_y < btn_credits_y + btn_height) {
+    draw_set_color(make_color_rgb(100, 100, 255));
+} else {
+    draw_set_color(c_dkgray);
+}
+draw_rectangle(btn_x, btn_credits_y, btn_x + btn_width, btn_credits_y + btn_height, false);
+
+draw_set_color(c_white);
+draw_text(btn_x + btn_width / 2, btn_credits_y + btn_height / 2, "Credits");
