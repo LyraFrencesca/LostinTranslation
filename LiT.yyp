@@ -469,6 +469,7 @@
     {"id":{"name":"Walk_down","path":"sprites/Walk_down/Walk_down.yy",},},
     {"id":{"name":"Walk_to_left","path":"sprites/Walk_to_left/Walk_to_left.yy",},},
     {"id":{"name":"Walk_to_right","path":"sprites/Walk_to_right/Walk_to_right.yy",},},
+    {"id":{"name":"Walk_up","path":"sprites/Walk_up/Walk_up.yy",},},
     {"id":{"name":"TreesG","path":"tilesets/TreesG/TreesG.yy",},},
     {"id":{"name":"TreesR","path":"tilesets/TreesR/TreesR.yy",},},
     {"id":{"name":"TS_Background","path":"tilesets/TS_Background/TS_Background.yy",},},
