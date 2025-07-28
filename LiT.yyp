@@ -10,6 +10,7 @@
   },
   "defaultScriptType":0,
   "Folders":[
+    {"$GMFolder":"","%Name":"Animated","folderPath":"folders/Animated.yy","name":"Animated","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -68,7 +69,6 @@
     {"$GMFolder":"","%Name":"Purple","folderPath":"folders/Sprites/Weapons/Purple.yy","name":"Purple","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tilemap","folderPath":"folders/Sprites/Weapons/Tilemap.yy","name":"Tilemap","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Yellow","folderPath":"folders/Sprites/Weapons/Yellow.yy","name":"Yellow","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Animated","folderPath":"folders/Animated.yy","name":"Animated","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
@@ -183,6 +183,7 @@
     {"id":{"name":"snd_walk","path":"sounds/snd_walk/snd_walk.yy",},},
     {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},},
     {"id":{"name":"Background_TS","path":"sprites/Background_TS/Background_TS.yy",},},
+    {"id":{"name":"Flower","path":"sprites/Flower/Flower.yy",},},
     {"id":{"name":"Idle_face_left","path":"sprites/Idle_face_left/Idle_face_left.yy",},},
     {"id":{"name":"Idle_Face_right","path":"sprites/Idle_Face_right/Idle_Face_right.yy",},},
     {"id":{"name":"Idle_Face_up","path":"sprites/Idle_Face_up/Idle_Face_up.yy",},},

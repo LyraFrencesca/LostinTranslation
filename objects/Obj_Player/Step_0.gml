@@ -5,6 +5,7 @@ var yspd = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 move_and_collide(xspd * move_spd, yspd * move_spd, tilemap, undefined, undefined, undefined, move_spd, move_spd);
 
+
 walk_timer++;
 
 if (xspd != 0 or yspd != 0) {
