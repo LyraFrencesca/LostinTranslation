@@ -1,7 +1,7 @@
 dialog = [
-    { name: "ともだち", msg: "いくらですか？ is a phrase to ask how much something is." },
+    { name: "ともだち", msg: "いくらですか? is a phrase to ask how much something is." },
 	{ name: "ともだち", msg: "Whether you're wondering how much something is or checking out, this phrase is useful." },
-    { name: "Player", msg: "いくらですか？" },
+    { name: "Player", msg: "いくらですか?" },
 	{ name: "Player", msg: "I'm ready to shop!" },
 ];
 
